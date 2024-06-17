@@ -1,5 +1,26 @@
 
   @media screen and (max-width: 700px) {
+   
+    .inRenCus{
+        width: 100% !important;
+        height: 100% !important;
+       display: flex !important;
+       flex-direction: column;
+       justify-content: space-around;
+    }
+    .inRenCus .inRenCusDet{
+        width:100%;
+        height:100%;
+        display:flex;
+        flex-direction:row;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        margin:0 auto;
+    }
+    .inRenCus .inRenCusDet .crd{
+        margin:5px;
+    }
+   
     .hdr{
         display:flex;
         justify-content: flex-start;
@@ -157,6 +178,7 @@
         flex-direction:row;
         flex-wrap: wrap;
     }
+   
 }
 
 
