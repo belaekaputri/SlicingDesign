@@ -178,7 +178,39 @@
         flex-direction:row;
         flex-wrap: wrap;
     }
-   
+
+    .topFtr{
+        width:100%;
+      
+    }
+    .topFtr .jCon{
+        height:100%;
+        width:100%;
+    }
+    .topFtr .jCon .ps{
+        display:flex;
+        flex-direction:column;
+        width:100%;
+        height:100%;
+    
+    }
+
+    .topFtr .jCon .ps .about{
+        margin-top:8px;
+    }
+    .topFtr .jCon .unduh{
+     display:none;
+
+    }
+    .topFtr .btF{
+        display:flex;
+        flex-direction:column;
+        align-items: flex-start;
+        height: 100%;
+    }
+   .topFtr .metodePem img{
+    width:80%!important;
+   }
 }
 
 
