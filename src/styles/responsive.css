@@ -1,10 +1,8 @@
 
   @media screen and (max-width: 700px) {
     .hdr{
-   
         display:flex;
         justify-content: flex-start;
-         background-color: lightskyblue;
     }
     .topHdr  .hdrBtm{
         max-width: 500px;
@@ -49,6 +47,9 @@
         display: flex;
         align-items: center;
     }
+    .inTagihan .h3Tag{
+        width:100%;
+    }
  
     .inTagihan .entrTopPul{
         display:flex;
@@ -57,11 +58,11 @@
         justify-content: space-between;
         }
         .desTagihan ul {
-           background-color: antiquewhite;
             width: 390px;
             display: flex;
             justify-content: flex-start;
             flex-direction: row;
+            border-bottom: 1px solid #AFB1B6;
           }
           .desTagihan ul li:nth-child(3),.desTagihan ul li:nth-child(4),.desTagihan ul li:nth-child(5) {
             display: none;
@@ -80,13 +81,61 @@
           
             .entrTopPul .entPul input{
                 height: 44px;
+                width:95%;
                 border:1px solid #AFB1B6;
                 outline:none;
                 border-radius:8px;
                 padding-left:35px;
             }
-    
+            hr{
+                width:"100vw";
+            }
+            .dropdownPaket{
+                width: 95%;
+        
+            }
+            
+
+.inTagihan .entrTopPul > button {
+    width: 95%;
+   
+}
+.container__slider {
+    height: 20vh;
+}
+  hr{
+    display:none;
+  } 
+  
+  .indBan {
+    width: 100%;
   }
+
+  .indBan .deDis1, .indBan .deDis2 {
+    flex-direction: column;
+    display: flex;
+    padding: 15px;
+    width:100%;
+    height: 100%;
+        
+    }
+    .indBan .deDis1 .cardDis1,  .indBan .deDis2 .cardDis2 {
+    width:100%;
+    height: 100%;
+    }
+
+    .indBan .deDis1 .cardDis1 > button,  .indBan .deDis2 .cardDis2 >button {
+        margin-top: 8px;
+    }
+
+}
+
+
+  
+
+
+  
+  
 
   
   
