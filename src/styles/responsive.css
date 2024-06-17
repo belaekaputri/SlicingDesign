@@ -128,6 +128,35 @@
         margin-top: 8px;
     }
 
+    .carDetail {
+        width: 100%;
+
+    }
+    .carDetail .cardTitle {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        padding: 5px;
+    }
+    .carDetail{
+        width: 100%;
+        height: 100%;
+       
+    }
+    .carDetail  .inRenCus{
+        width:100%;
+        height:100%;
+       display:flex;
+       justify-content: column;
+    }
+    .carDetail     .inRenCus .inRenCusDet{
+        width:100%;
+        height:100%;
+        display:flex;
+        justify-content: space-around;
+        flex-direction:row;
+        flex-wrap: wrap;
+    }
 }
 
 
